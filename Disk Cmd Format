@@ -1,0 +1,11 @@
+- Diskpart Starts program Do Not type the - (ie diskpart> List disk then enter key)
+- LIST DISK (shows all disk, look for Disk Number of the Drive (Your USB drive)
+- SELECT DISK X (For X insert USB drive Number)
+- DETAIL DISK (Detailed information of the disk that has the focus This will show if you have selected the correct drive.)
+- CLEAN (One of the most practical and most dangerous: it removes at once all the partitions on the selected disk.)
+Note for the next two do NOT use the size=n)
+- create partition primary
+- select partition 1
+- active
+- format fs=ntfs quick
+- assign
